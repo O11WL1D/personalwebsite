@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavin Unrue - Resume</title>
+    <style>
+
+.icon img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            color: #000;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #000;
+            font-size: 18px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+        .sub-section {
+            margin-bottom: 10px;
+        }
+        .sub-section h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+        .list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .list li {
+            margin-bottom: 5px;
+        }
+        .list li strong {
+            display: block;
+            font-weight: bold;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .icon img {
+            width: 30px;
+            height: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="projects.html">Projects</a>
+        </div>
+        <div class="icon">
+            <img src="../resources/img/maxwell.png" alt="Custom Icon">
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="header">
+            <h1>Gavin Unrue</h1>
+            <p>
+                <a href="mailto:gaun8195@colorado.edu">gaun8195@colorado.edu</a> | 
+                <a href="https://github.com/O11WL1D">github.com/O11WL1D</a> | 
+                720-299-9005 | 
+                <a href="https://linkedin.com/in/gavin-unrue-921363218">linkedin.com/in/gavin-unrue</a>
+            </p>
+        </div>
+
+        <div class="section">               
+            <h2>Education</h2>
+            <div class="sub-section">
+                <h3>University of Colorado Boulder, 2022-2025</h3>
+                <p>BS in Electrical, Computer and Energy Engineering (ECEE), GPA: 3.24</p>
+                <ul class="list">
+                    <li><strong>Courses taken:</strong> Embedded software, Electronics Design Lab, Circuits as systems, Discrete math, Modern Science and Society, Differential Equations w Linear Algebra, Microelectronics</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>Metropolitan State University of Denver, 2019-2022</h3>
+                <p>BS in Computer Engineering, GPA: 3.44</p>
+                <ul class="list">
+                    <li><strong>Courses taken:</strong> Digital Fundamentals 1 & 2, C Programming, DC/AC Circuits, Computer Organization 1 & 2, Calculus 1,2,3, College Algebra & Trigonometry, Computer Science 1 & 2, Principles of Micro & Macroeconomics</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Relevant Skills</h2>
+            <div class="skills-grid">
+                <ul class="list">
+                    <li>Languages: C/C++, Python, VHDL, Java, JavaScript, Batch Scripting, Shell Scripting</li>
+                </ul>
+                <ul class="list">
+                    <li>Software Dev: GitHub, Jira, Scrum, Shapefiles, Algorithms, Data structures</li>
+                </ul>
+                <ul class="list">
+                    <li>Hardware Dev: FPGA/Circuit design, LT Spice, Amplifier Design, I2C Protocol</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="sub-section">
+                <h3>SciTec, Inc (Software Dev Intern)</h3>
+                <p>(June 2024 - August 2024)</p>
+                <ul class="list">
+                    <li>Created new library to assist in geodetic-coordinate operations</li>
+                    <li>Extensive use of shapefiles and vector operations</li>
+                    <li>Temporary security clearance granted until full security clearance is processed</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>Amazon delivery driver</h3>
+                <p>(June 4th 2023 - August 19th 2023)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Notable Projects</h2>
+            <div class="sub-section">
+                <h3>Remote Controlled Robot, 2023</h3>
+                <p>(Electronics Design Lab, CU Boulder)</p>
+                <ul class="list">
+                    <li>Robot featuring a cruise control system, remote controls and an Arduino interface</li>
+                    <li>Utilized negative feedback via filters and implemented Bluetooth controls</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>Pearl Gecko I2C Drivers, 2023</h3>
+                <ul class="list">
+                    <li>Driver which communicates with Pearl Gecko’s onboard humidity sensor via I2C protocol</li>
+                    <li>Features a scheduler, energy mode switching, usage of onboard timers, GPIO ports, and software state machine</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>16-bit Processor, VIP (Independent Study)</h3>
+                <ul class="list">
+                    <li>FPGA design implemented on DE0-CV dev board</li>
+                    <li>Adjustable-frequency clock; reg-file with three read/write ports, ALU with bitwise operations</li>
+                    <li>Planned features include interrupt-based multiprogramming, transparent module memory sharing, and peripheral keyboard module</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>8-bit Processor, 2019 (Independent Study)</h3>
+                <ul class="list">
+                    <li>Assembly of discrete logic, 8-bit breadboard computer capable of performing 7 instructions</li>
+                    <li>Utilized following modules: RAM, control unit, PC/instruction register, 2 temp registers, clock, binary to decimal display, ALU</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Volunteer Work</h2>
+            <div class="sub-section">
+                <h3>Eagle Scout Project</h3>
+                <p>Troop 324 - 2019</p>
+                <ul class="list">
+                    <li>Project management of two elevated, ADA-compliant garden beds for wheelchair-bound and elderly gardeners</li>
+                    <li>Fundraised $1200 worth of materials</li>
+                    <li>Total of 217 service hours logged</li>
+                    <li>Designed garden beds and concrete platforms</li>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3>Other Volunteerism</h3>
+                <ul class="list">
+                    <li>Assisted fellow scouts in their Eagle projects: book libraries, park benches, bird houses, tree planting, etc.</li>
+                    <li>Assisted Salvation Army soup kitchen</li>
+                    <li>Adult volunteer for scout ice fishing trips, assisted in assembling tents/snow shoveling, etc.</li>
+                    <li>Volunteered for front-range community library summer reading program</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Clubs, Hobbies, and Achievements</h2>
+            <ul class="list">
+                <li>Weightlifting club (CU)</li>
+                <li>Chess club (CU)</li>
+                <li>Summer 2020 Provost honor roll (MSU)</li>
+                <li>Adams County AIM scholarship (MSU)</li>
+                <li>Sea Scouts - scuba certified, Troop 324 Westminster Colorado</li>
+                <li>Arrowman - Troop 324</li>
+                <li>Denver Urban Gardens - Gardener (2014-2019)</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="downloader">
+        <a href="../resources/word/current resume 7-23-2024 updated version.docx" download>
+
+            <h1 style="text-align:center">
+                download resume
+            </h1>
+        </a>
+    </div>
+
+
+ 
+        
+    
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://www.facebook.com/people/Gavin-Unrue/pfbid0mHgt9TKXN7bwMDG4UfutDpUzYUArpHFAjRXRXxkCCBTdAQ29H3qBkZ619B6NjQr5l/" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/gavin-unrue" target="_blank">LinkedIn</a>
+        <a href="https://github.com/O11WL1D" target="_blank">GitHub</a>
+    </footer>
+
+</body>
+</html>
